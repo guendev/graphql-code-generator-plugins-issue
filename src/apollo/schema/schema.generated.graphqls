@@ -1,0 +1,5 @@
+type User {
+  domain: String!
+  id: ID!
+  name: String!
+}

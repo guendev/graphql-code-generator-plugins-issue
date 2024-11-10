@@ -1,0 +1,22 @@
+{
+  "name": "graphql-code-generator-plugins-issue",
+  "version": "0.0.1",
+  "description": "Just a minimal example",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "apollo:build": "npx graphql-codegen"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.8.0",
+    "@eddeee888/gcg-typescript-resolver-files": "^0.11.0",
+    "@graphql-codegen/cli": "^5.0.3",
+    "@types/node": "^22.9.0",
+    "@types/pluralize": "^0.0.33",
+    "eslint": "^9.14.0",
+    "eslint-plugin-perfectionist": "^3.9.1",
+    "typescript": "5.6.3",
+    "vite-tsconfig-paths": "^5.1.1"
+  }
+}

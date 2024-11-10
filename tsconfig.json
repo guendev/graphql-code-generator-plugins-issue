@@ -1,0 +1,47 @@
+{
+	"compilerOptions": {
+		/* Output Options */
+		"outDir": "dist",
+		"sourceMap": true,
+
+		/* LanguageModel and Environment */
+		"target": "ESNext",
+		"lib": ["ESNext"],
+		"module": "ESNext",
+
+		/* Node.js Specific Settings */
+		"moduleResolution": "node",
+		"types": ["node"],
+
+		/* Module Resolution and Path Mapping */
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+        "checkJs": false,
+		"baseUrl": "./",
+		"paths": {
+			"@/*": ["src/*"]
+		},
+		"typeRoots": [
+          "node_modules/@types",
+          "vitest/globals"
+        ],
+
+		/* Strict Type-Checking Options */
+		"strict": true,
+		"noImplicitAny": true,
+		"forceConsistentCasingInFileNames": true,
+
+		/* Additional Options */
+		"useDefineForClassFields": true,
+		"allowSyntheticDefaultImports": true
+	},
+	/* File Inclusion */
+	"include": [
+      "./*.js",
+      "src/**/*.ts",
+      "codegen.ts",
+      "node_modules/vitest/globals.d.ts",
+      "vitest.config.ts",
+      "tests/**/*.ts"
+    ]
+}

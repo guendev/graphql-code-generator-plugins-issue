@@ -1,0 +1,6 @@
+# Type definitions
+type User {
+	id: ID!
+	name: String!
+    domain: String!
+}

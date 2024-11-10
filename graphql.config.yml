@@ -1,0 +1,4 @@
+documents:
+  - "src/**/*.graphql"
+schema:
+  - "src/apollo/schema/schema.generated.graphqls"
